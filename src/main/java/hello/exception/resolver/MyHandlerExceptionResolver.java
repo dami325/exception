@@ -20,7 +20,6 @@ public class MyHandlerExceptionResolver implements HandlerExceptionResolver {
                 return new ModelAndView();
             }
 
-            if()
 
         } catch (IOException e) {
             log.error("resolver ex",e);
