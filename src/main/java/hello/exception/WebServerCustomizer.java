@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * 설정 후 bean 등록하고
  * 처리할 컨트롤러가 필요함
  */
-//@Component
+@Component
 public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
 
     @Override
